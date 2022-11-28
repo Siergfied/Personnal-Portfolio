@@ -16,7 +16,7 @@ export default function Home() {
             </Head>
 
             <div className='container'>
-                <h1 className='home'>Salut, moi c'est Axel.</h1>
+                <h1 className='home'>Salut, moi c&apos;est Axel.</h1>
             </div>
         </>
     );
