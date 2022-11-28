@@ -40,7 +40,7 @@ export default function Footer() {
                 </li>
                 <li>
                     <a
-                        href='https://twitter.com/home'
+                        href='https://twitter.com/ADSiergfied'
                         target='_blank'
                         rel='noreferrer'
                         className='footer__link'
