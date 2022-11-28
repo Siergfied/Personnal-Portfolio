@@ -101,7 +101,7 @@ export default function Realisations() {
                     rel='noreferrer'
                     className='projet__link'
                 >
-                    View source code
+                    Voir le code source
                 </a>
             </div>
         </>

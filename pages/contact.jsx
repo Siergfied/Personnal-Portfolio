@@ -13,7 +13,7 @@ export default function Contact() {
 
             <div className='contact'>
                 <h2 className='contact__text'>
-                    Vous voulez entrain en contact avec moi ?
+                    Vous voulez entrer en contact avec moi ?
                 </h2>
                 <a
                     href='mailto:axel.damart@gmail.com'
