@@ -1,0 +1,31 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__text {
+    font-size: 36px;
+    text-align: center;
+}
+
+.contact__link {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 25px 10px black;
+}
+
+.contact__link:hover {
+    box-shadow: 0 0 10px 2px var(--secondary-color);
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "id" : 0,
+        "entreprise" : "SARL REBOL (McDonald), Amboise (37400)",
+        "poste" : "Equiper polyvalent",
+        "date" : "Juillet 2015 à Mai 2017",
+        "mission" : [
+            "Connaissance et respect des normes d'hygiène et de sécurité alimentaire.",
+            "Préparation des commandes en suivant les protocoles et recettes définis."
+        ]
+    },
+    {
+        "id" : 1,
+        "entreprise" : "Galor SAS, Amboise (37400)",
+        "poste" : "Agent de maintenance",
+        "date" : "Août 2018 à Février 2019",
+        "mission" : [
+            "Entretien, modification, réparation des installations des élevages de pintades."
+        ]
+    },
+    {
+        "id" : 2,
+        "entreprise" : "Comptoir Général du Ressort, Montrichard (41400)",
+        "poste" : "Régleur ressortier",
+        "date" : "Juillet 2019 à Novembre 2020",
+        "mission" : [
+            "Contrôleur qualité durant les 6 premiers mois",
+            "Réglages, montage, démontage et entretien sur machine enrouleuse à commande numérique.",
+            "Contrôle qualité de la production.",
+            "Lecture de plan",
+            "Réalisation d'outillage spécifique"
+        ]
+    },
+    {
+        "id" : 3,
+        "entreprise" : "SAS ETABLISSEMENTS LACROIX, Meung sur Loire (45130)",
+        "poste" : "Régleur ressortier",
+        "date" : "Février 2021 à Mai 2022",
+        "mission" : [
+            "Réglages, montage, démontage et entretien sur machine enrouleuse à commande numérique.",
+            "Contrôle qualité de la production.",
+            "Lecture de plan",
+            "Réalisation d'outillage spécifique"
+        ]
+    }
+]

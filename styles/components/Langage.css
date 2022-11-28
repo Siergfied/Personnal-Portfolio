@@ -1,0 +1,11 @@
+.langages__container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.langages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

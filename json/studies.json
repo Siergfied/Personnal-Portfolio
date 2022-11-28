@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 0,
+        "formation" : "Baccalauréat Scientifique Spécialité Sciences de l'Ingénieur",
+        "organisme" : "Lycée Léonard de Vinci, Amboise (37400)",
+        "date" : "Septembre 2011 à Juillet 2014"
+    },
+    {
+        "id" : 1,
+        "formation" : "DUT Génie Electrique et Informatique Industrielle",
+        "organisme" : "Université François Rabelais, Tours (37200)",
+        "date" : "Septembre 2014 à Juillet 2016"
+    },
+    {
+        "id" : 2,
+        "formation" : "Développeur Web",
+        "organisme" : "OpenClassrooms, Paris (75019), à distance",
+        "date" : "Juillet 2022 à Mars 2023"
+    }
+]

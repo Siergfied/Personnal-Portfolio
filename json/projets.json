@@ -1,0 +1,65 @@
+[
+    {
+        "id" : 0,
+        "title" : "booki",
+        "description" : "Projet réalisé dans le cadre de ma formation Développeur Web.\n Transformation d'une maquette en site web avec HTML & CSS.",
+        "langages" : [
+            "html",
+            "css"
+        ],
+        "github" : "https://github.com/Siergfied/OpenClassrooms_DeveloppeurWeb_Projet-2"
+    },
+    {
+        "id" : 1,
+        "title" : "ohmyfood",
+        "description" : "Projet réalisé dans le cadre de ma formation Développeur Web.\n Transformation d'une maquette en un site web avec HTML & CSS avec préprocesseur Sass. Réalisation d'animation en CSS.",
+        "langages" : [
+            "html",
+            "css",
+            "sass"
+        ],
+        "github" : "https://github.com/Siergfied/OpenClassrooms_DeveloppeurWeb_Projet-3"
+    },
+    {
+        "id" : 2,
+        "title" : "la panthère",
+        "description" : "Projet réalisé dans le cadre de ma formation Développeur Web.\n Optimisation d'un site web existant. Analyse du SEO et de l'accessibilité du site dans l'état. Réalisation des améliorations.",
+        "langages" : [
+            "html",
+            "css"
+        ],
+        "github" : "https://github.com/Siergfied/OpenClassrooms_DeveloppeurWeb_Projet-4"
+    },
+    {
+        "id" : 3,
+        "title" : "kanap",
+        "description" : "Projet réalisé dans le cadre de ma formation Développeur Web.\n Construction d'un site e-commerce en JavaScript. L'HTML et le CSS des différentes pages ainsi que le backend étaient fournis. Le but était de réaliser en JavaScript la liaison entre les deux.",
+        "langages" : [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "github" : "https://github.com/Siergfied/OpenClassrooms_DeveloppeurWeb_Projet-5"
+    },
+    {
+        "id" : 4,
+        "title" : "hot takes",
+        "description" : "Projet réalisé dans le cadre de ma formation Développeur Web.\n Réalisation d'une API REST avec express, ainsi que création d'une database sur MongoDB.",
+        "langages" : [
+            "javascript"
+        ],
+        "github" : "https://github.com/Siergfied/OpenClassrooms_DeveloppeurWeb_Projet-6"
+    },
+    {
+        "id" : 5,
+        "title" : "Kasa",
+        "description" : "Projet réalisé dans le cadre de ma formation Développeur Web.\n Création d'une application web avec React et React Router.",
+        "langages" : [
+            "html",
+            "css",
+            "javascript",
+            "react"
+        ],
+        "github" : "https://github.com/Siergfied/OpenClassrooms_DeveloppeurWeb_Projet-7"
+    }
+]
