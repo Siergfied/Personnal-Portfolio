@@ -8,10 +8,10 @@
 }
 
 .error__code {
-    font-size: 120px;
+    font-size: var(--font-size-5);
 }
 
 .error__text {
-    font-size: 24px;
+    font-size: var(--font-size-2);
     margin-top: 50px;
 }

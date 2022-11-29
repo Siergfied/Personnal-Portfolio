@@ -23,7 +23,7 @@
 .section__title {
     display: flex;
     margin-bottom: 25px;
-    font-size: 36px;
+    font-size: var(--font-size-3);
     text-transform: uppercase;
 }
 
@@ -42,7 +42,7 @@
 .section__entry > h3 {
     display: flex;
     flex: 1 1 50%;
-    font-size: 18px;
+    font-size: var(--font-size-1);
     font-weight: 700;
     margin-bottom: 10px;
 }

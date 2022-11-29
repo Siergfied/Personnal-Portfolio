@@ -61,7 +61,7 @@ export default function Realisations() {
                         src={previousImage}
                         alt=''
                         fill='true'
-                        sizes='50vw'
+                        sizes='300px'
                         className='carousel__image'
                     />
                     <span className='carousel__icon'>&lt;</span>
@@ -72,7 +72,7 @@ export default function Realisations() {
                         src={currentImage}
                         alt={project.title}
                         fill='true'
-                        sizes='90vw'
+                        sizes='600px'
                         className='carousel__image'
                     />
                     <h2 className='carousel__title'>{project.title}</h2>
@@ -85,7 +85,7 @@ export default function Realisations() {
                         src={nextImage}
                         alt=''
                         fill='true'
-                        sizes='50vw'
+                        sizes='300px'
                         className='carousel__image'
                     />
                     <span className='carousel__icon'>&gt;</span>

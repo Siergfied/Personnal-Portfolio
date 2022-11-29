@@ -26,7 +26,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    font-size: 92px;
+    font-size: var(--font-size-4);
 }
 
 .carousel__other:hover .carousel__icon {
@@ -63,7 +63,7 @@
     bottom: 0;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 72px;
+    font-size: var(--font-size-4);
     font-weight: 700;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0) 0%,
@@ -89,7 +89,7 @@
     height: 100%;
     margin-top: 25px;
     text-align: center;
-    font-size: 18px;
+    font-size: var(--font-size-1);
     line-height: 1.5;
     white-space: pre-wrap;
 }
@@ -98,7 +98,7 @@
     display: flex;
     flex-shrink: 0;
     align-items: center;
-    font-size: 18px;
+    font-size: var(--font-size-1);
     text-transform: uppercase;
     font-weight: 700;
     width: 300px;

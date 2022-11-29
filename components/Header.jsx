@@ -3,7 +3,7 @@ import NavLink from './NavLink';
 export default function Header() {
     return (
         <header className='header'>
-            <div className='brand'>
+            <div className='logo'>
                 <NavLink
                     href='/'
                     text='Axel Damart'
