@@ -110,3 +110,14 @@
 .projet__link:hover {
     box-shadow: 0 0 10px 2px var(--secondary-color);
 }
+
+@media screen and (max-width: 1024px) {
+    .carousel__current {
+        width: 400px;
+        height: 400px;
+    }
+
+    .projet__description {
+        width: 100%;
+    }
+}
