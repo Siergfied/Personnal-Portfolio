@@ -10,7 +10,13 @@ main {
     margin-right: 50px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1240px) {
+    main {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 740px) {
     .content {
         flex-direction: column-reverse;
     }

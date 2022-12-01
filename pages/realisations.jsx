@@ -55,7 +55,7 @@ export default function Realisations() {
             <div className='carousel'>
                 <div
                     onClick={OnPrevious}
-                    className='carousel__other'
+                    className='carousel__other carousel__left'
                 >
                     <Image
                         src={previousImage}
@@ -79,7 +79,7 @@ export default function Realisations() {
                 </div>
                 <div
                     onClick={onNext}
-                    className='carousel__other'
+                    className='carousel__other carousel__right'
                 >
                     <Image
                         src={nextImage}

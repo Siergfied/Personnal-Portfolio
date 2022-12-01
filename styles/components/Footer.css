@@ -28,9 +28,10 @@
     transform: scale(1.25, 1.25);
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
     .footer {
         justify-content: center;
+        margin-top: 50px;
     }
     .footer > ul {
         flex-direction: row;

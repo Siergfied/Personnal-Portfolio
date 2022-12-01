@@ -10,7 +10,7 @@
     font-size: var(--font-size-3);
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
     .container {
         margin: auto;
     }

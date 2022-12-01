@@ -1,6 +1,7 @@
 .carousel {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .carousel__other {
@@ -111,10 +112,46 @@
     box-shadow: 0 0 10px 2px var(--secondary-color);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1240px) {
+    .carousel {
+        width: fit-content;
+        margin: 0 auto;
+        align-items: center;
+    }
+
     .carousel__current {
-        width: 400px;
-        height: 400px;
+        width: 550px;
+        height: 550px;
+        margin: 0;
+    }
+
+    .carousel__other {
+        margin: 0;
+        filter: blur(0);
+        position: absolute;
+        z-index: 1;
+        background-color: var(--primary-color);
+        width: 10%;
+    }
+
+    .carousel__other:hover {
+        box-shadow: none;
+    }
+
+    .carousel__other .carousel__image {
+        display: none;
+    }
+
+    .carousel__left {
+        left: 0;
+    }
+
+    .carousel__right {
+        right: 0;
+    }
+
+    .carousel__icon {
+        opacity: 1;
     }
 
     .projet__description {
