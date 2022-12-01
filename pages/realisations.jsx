@@ -72,7 +72,7 @@ export default function Realisations() {
                         src={currentImage}
                         alt={project.title}
                         fill='true'
-                        sizes='600px'
+                        sizes='1800px'
                         className='carousel__image'
                     />
                     <h2 className='carousel__title'>{project.title}</h2>
