@@ -127,7 +127,7 @@
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 840px) {
     .carousel {
         width: fit-content;
         margin: 0 auto;
@@ -137,6 +137,8 @@
     .carousel__current {
         width: 100vw;
         height: 100vw;
+        max-width: 450px;
+        max-height: 450px;
         margin: 0;
     }
 
