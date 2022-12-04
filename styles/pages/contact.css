@@ -5,6 +5,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
+    margin: auto 0;
 }
 
 .contact__text {
@@ -28,4 +29,10 @@
 
 .contact__link:hover {
     box-shadow: 0 0 10px 2px var(--secondary-color);
+}
+
+@media screen and (max-width: 740px) {
+    .contact__text {
+        font-size: var(--font-size-3);
+    }
 }

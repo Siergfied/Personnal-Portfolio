@@ -12,6 +12,8 @@
     margin-bottom: 25px;
     filter: blur(4px);
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel__other:hover {
@@ -23,15 +25,20 @@
     opacity: 0;
     color: var(--secondary-color);
     display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
     font-size: var(--font-size-4);
+    filter: blur(0px);
 }
 
 .carousel__other:hover .carousel__icon {
     opacity: 1;
+}
+
+.carousel__left .carousel__icon {
+    transform: rotate(90deg);
+}
+
+.carousel__right .carousel__icon {
+    transform: rotate(-90deg);
 }
 
 .carousel__current {
@@ -113,6 +120,14 @@
 }
 
 @media screen and (max-width: 1240px) {
+    .carousel__current {
+        margin: 0 10px;
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 740px) {
     .carousel {
         width: fit-content;
         margin: 0 auto;
@@ -120,8 +135,8 @@
     }
 
     .carousel__current {
-        width: 550px;
-        height: 550px;
+        width: 100vw;
+        height: 100vw;
         margin: 0;
     }
 
@@ -130,8 +145,9 @@
         filter: blur(0);
         position: absolute;
         z-index: 1;
+        width: 30px;
+        height: 30px;
         background-color: var(--primary-color);
-        width: 10%;
     }
 
     .carousel__other:hover {
@@ -152,9 +168,20 @@
 
     .carousel__icon {
         opacity: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel__title {
+        font-size: var(--font-size-3);
     }
 
     .projet__description {
+        margin-top: 10px;
         width: 100%;
+    }
+
+    .projet__link {
+        margin-bottom: 25px;
     }
 }

@@ -3,11 +3,13 @@
 :root {
     --primary-color: #171717;
     --secondary-color: #dddddd;
+
     --font-size-1: 18px;
     --font-size-2: 24px;
     --font-size-3: 36px;
     --font-size-4: 72px;
     --font-size-5: 120px;
+
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }

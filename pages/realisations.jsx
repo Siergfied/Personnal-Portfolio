@@ -42,6 +42,8 @@ export default function Realisations() {
     let currentImage = folder + (item + 1) + extension;
     let nextImage = folder + (next + 1) + extension;
 
+    let iconSize = 100;
+
     return (
         <>
             <Head>
@@ -64,7 +66,13 @@ export default function Realisations() {
                         sizes='300px'
                         className='carousel__image'
                     />
-                    <span className='carousel__icon'>&lt;</span>
+                    <Image
+                        src='/static/chevron.svg'
+                        alt=''
+                        width={iconSize}
+                        height={iconSize}
+                        className='carousel__icon'
+                    />
                 </div>
 
                 <div className='carousel__current'>
@@ -88,7 +96,13 @@ export default function Realisations() {
                         sizes='300px'
                         className='carousel__image'
                     />
-                    <span className='carousel__icon'>&gt;</span>
+                    <Image
+                        src='/static/chevron.svg'
+                        alt=''
+                        width={iconSize}
+                        height={iconSize}
+                        className='carousel__icon'
+                    />
                 </div>
             </div>
 
