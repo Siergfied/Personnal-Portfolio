@@ -39,15 +39,15 @@ export default function Home() {
                     </h1>
                     <p className='intro--text'>
                         Toujours en quête de connaissance, je suis à la
-                        recherche d&apos;une entreprise dans laquelle je pourrais
-                        continuer de progresser.
+                        recherche d&apos;une entreprise dans laquelle je
+                        pourrais continuer de progresser.
                     </p>
                 </div>
 
                 <div className='info'>
                     <section className='info--section'>
                         <h2 className='info--title'>
-                            Durant ma formation j'ai exploré :
+                            Durant ma formation j&apos;ai exploré :
                         </h2>
                         <ul className='info--text'>
                             <li>{image('html', 'HTML5')}</li>
@@ -60,7 +60,7 @@ export default function Home() {
 
                     <section className='info--section'>
                         <h2 className='info--title'>
-                            Durant mon temps libre j'ai découvert :
+                            Durant mon temps libre j&apos;ai découvert :
                         </h2>
                         <ul className='info--text'>
                             <li>{image('docker', 'Docker')}</li>
