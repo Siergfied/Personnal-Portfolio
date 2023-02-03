@@ -4,15 +4,70 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.home {
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.intro--title {
     font-size: var(--font-size-3);
     text-align: center;
+    margin: 20px;
+}
+
+.intro--text {
+    text-align: center;
+    font-size: var(--font-size-2);
+    margin: 20px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.info--section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+.info--title {
+    margin: 10px;
+    font-size: var(--font-size-2);
+}
+
+.info--text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: var(--font-size-1);
+    gap: 10px;
+    margin: 10px;
+}
+
+.info--text > li {
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 740px) {
     .container {
         margin: auto;
+    }
+
+    .info {
+        margin: 25px;
+        flex-direction: column;
+    }
+
+    .info--section {
+        width: 100%;
     }
 }

@@ -19,6 +19,22 @@ export default function Experience() {
 
             <div className='experiences'>
                 <section className='section'>
+                    <h2 className='section__title'>Formations</h2>
+                    <ul className='section__content'>
+                        {studies.map(({ id, formation, organisme, date }) => (
+                            <li
+                                key={id}
+                                className='section__entry'
+                            >
+                                <h3>{formation}</h3>
+                                <p>{organisme}</p>
+                                <p>{date}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+
+                <section className='section'>
                     <h2 className='section__title'>Emplois</h2>
                     <ul className='section__content'>
                         {jobs.map(
@@ -39,22 +55,6 @@ export default function Experience() {
                                 </li>
                             )
                         )}
-                    </ul>
-                </section>
-
-                <section className='section'>
-                    <h2 className='section__title'>Formations</h2>
-                    <ul className='section__content'>
-                        {studies.map(({ id, formation, organisme, date }) => (
-                            <li
-                                key={id}
-                                className='section__entry'
-                            >
-                                <h3>{formation}</h3>
-                                <p>{organisme}</p>
-                                <p>{date}</p>
-                            </li>
-                        ))}
                     </ul>
                 </section>
             </div>
