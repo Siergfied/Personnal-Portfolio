@@ -39,7 +39,7 @@ export default function Home() {
                     </h1>
                     <p className='intro--text'>
                         Toujours en quête de connaissance, je suis à la
-                        recherche d'une entreprise dans laquelle je pourrais
+                        recherche d&apos;une entreprise dans laquelle je pourrais
                         continuer de progresser.
                     </p>
                 </div>
