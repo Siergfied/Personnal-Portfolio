@@ -35,7 +35,7 @@ export default function Home() {
             <div className='container'>
                 <div className='intro'>
                     <h1 className='intro--title'>
-                        Salut, moi c&apos;est Axel, un développer web junior.
+                        Salut, moi c&apos;est Axel, un développer web.
                     </h1>
                     <p className='intro--text'>
                         Toujours en quête de connaissance, je suis à la
